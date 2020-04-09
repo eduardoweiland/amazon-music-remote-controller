@@ -1,0 +1,29 @@
+{
+  "name": "amazon-music-remote-controller-daemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Eduardo Weiland <eduardo@eduardoweiland.info>",
+  "license": "Unlicense",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoweiland/amazon-music-remote-controller.git"
+  },
+  "keywords": [
+    "amazon",
+    "music",
+    "websocket",
+    "daemon"
+  ],
+  "bugs": {
+    "url": "https://github.com/eduardoweiland/amazon-music-remote-controller/issues"
+  },
+  "homepage": "https://github.com/eduardoweiland/amazon-music-remote-controller#readme",
+  "dependencies": {
+    "ws": "^7.2.3"
+  }
+}
