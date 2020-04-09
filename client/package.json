@@ -1,0 +1,27 @@
+{
+  "name": "amazon-music-remote-controller-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "author": "Eduardo Weiland <eduardo@eduardoweiland.info>",
+  "license": "Unlicense",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoweiland/amazon-music-remote-controller.git"
+  },
+  "keywords": [
+    "amazon",
+    "music",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/eduardoweiland/amazon-music-remote-controller/issues"
+  },
+  "homepage": "https://github.com/eduardoweiland/amazon-music-remote-controller#readme",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
