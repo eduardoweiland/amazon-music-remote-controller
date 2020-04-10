@@ -2,7 +2,7 @@
 
 Control Amazon Music player from anywhere.
 
-Currently supports only toggling play/pause.
+Currently supports toggling play/pause and jumping to next and to previous track.
 
 ## How it works
 
