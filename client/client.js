@@ -18,6 +18,14 @@ yargs
     command: 'toggle',
     desc: 'Toggles playback',
   })
+  .command({
+    command: 'next',
+    desc: 'Play next track',
+  })
+  .command({
+    command: 'prev',
+    desc: 'Play previous track',
+  })
   .demandCommand();
 
 const port = yargs.argv.port;

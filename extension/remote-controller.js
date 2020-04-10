@@ -9,6 +9,12 @@ browser.storage.local.get(defaultOptions).then((options) => {
       case 'toggle':
         document.querySelector('.playbackControlsView .button.playButton').click();
         break;
+      case 'next':
+        document.querySelector('.playbackControlsView .button.nextButton').click();
+        break;
+      case 'prev':
+        document.querySelector('.playbackControlsView .button.previousButton').click();
+        break;
     }
   });
 });
