@@ -1,5 +1,9 @@
-(function() {
-  const ws = new WebSocket('ws://localhost:4342');
+const defaultOptions = {
+  wsAddress: 'ws://localhost:4342',
+};
+
+browser.storage.local.get(defaultOptions).then((options) => {
+  const ws = new WebSocket(options.wsAddress);
   ws.addEventListener('message', (event) => {
     switch (event.data) {
       case 'toggle':
@@ -7,4 +11,4 @@
         break;
     }
   });
-})();
+});
