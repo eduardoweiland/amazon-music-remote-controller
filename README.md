@@ -1,3 +1,8 @@
+# NOT MAINTAINED
+
+Firefox has released a version with support for MediaSession API and Amazon Music is using it, so this extension is
+not necessary anymore. It Just Works™ out of the box.
+
 # amazon-music-remote-controller
 
 Control Amazon Music player from anywhere.
